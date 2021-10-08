@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dhruvasagar/vim-zoom'
 Plug 'ryanoasis/vim-devicons'
+Plug 'rking/ag.vim'
 " Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 " Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
@@ -43,8 +44,8 @@ Plug 'tpope/vim-rails'
 " Plug 'tpope/vim-fugitive'
 " Plug 'terryma/vim-multiple-cursors'
 Plug 'slim-template/vim-slim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'mileszs/ack.vim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'mileszs/ack.vim'
 Plug 'rakr/vim-one'
 Plug 'mattn/emmet-vim'
 Plug 'majutsushi/tagbar'
@@ -59,7 +60,7 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'itchyny/lightline.vim'
 " Plug 'thaerkh/vim-workspace'
-Plug 'dmerejkowsky/vim-ale'
+" Plug 'dmerejkowsky/vim-ale'
 " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 
 call plug#end()
@@ -86,7 +87,7 @@ set ignorecase
 set wildmenu
 set backspace=indent,eol,start
 set writebackup
-set binary
+" set binary
 set bomb
 set clipboard+=unnamedplus
 set completeopt=menuone,noselect,preview
